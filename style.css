@@ -12,17 +12,15 @@ header{
 }
 main{
     font-size:20px;
-    text-align:left;
+    text-align:center;
 
 }
 form{
     font-size:20px;
-    text-align:center;
-}
-.box{
-    
-    font-size: 15px;
 }
 footer{
-    font-size: 25px;
+    font-size: 20px;
+}
+.oo{
+    text-align:left;
 }
