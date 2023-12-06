@@ -2,89 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>My website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <title>Website </title>
 </head>
-<body>
-    <!-- link creation -->
-    <h2><b>Hey its me Prince Soni</b></h2>
-    <h3>Welcome to my first website</h3>
-    <h4>Here is my Social media handles</h4>
-    <p><a href="https://www.instagram.com/prince_soni_2/?hl=en" target="_blank">Instagram</a>
-    <p><a href="https://www.facebook.com/profile.php?id=100035949152045" target="_blank">FACEBOOK</a></p>
-    <p><a href="https://web.snapchat.com/" target="_blank">SNAPCHAT</a></p>
-    <img src="wallpapersden.com_satoru-gojo-digital-2021-art_1920x1200.jpg" height="220">
-    <table>
-        <thead>
-            <title>Table</title>
-        </thead>
-        <body>
-            <tr></tr>
-            <th>Class</th>
-            <th> Name</th>
-            <tr>
-                <td>10th</td>
-                <td>Karan</td>
-            </tr>
-            <tr></tr>
-            <td>12th</td>
-            <td>Manish</td>
-        </body>
-    </table>
-    <div>
-        <!-- form creation -->
-    <form action="post">
-        <h1>Lets get you logged in.</h1>
-        <label for="id">Enter Your Username</label>
-        <input type="text" id="id" name="id" placeholder="Enter your username">
-    </div>
-    <br>
-    <div>
-        <label for="password">Enter your password</label>
-        <input type="password" id="password" name="password" placeholder="Enter Your password">
-    </div> 
-    <br>
-    <div>
-        <input type="radio" id="new" name="user" value="NewUser">
-        <label for="new">New User</label>  
-        <input type="radio" name="user" id="old" value="old user">
-        <label for="old">Old User</label>
-    </div>
-    <br>
-    <div>
-        <input type="checkbox" id="1" name="good" value="yes">
-        <label for="good">You like this website</label><br>
-        <input type="checkbox" id="bad" name="bad" value="yes">
-        <label for="good">You like this website</label><br>
-        <input type="checkbox" id="1" name="good" value="yes">
-        <label for="good">You like this website</label><br>
-    </div>
-    <br>
-    <div>
-        <label for="name">Select Your name here=</label>
-        <select name="Prince" id="name">
-            <option value="Karan">Karan</option>
-            <option value="Moksh">Moksh</option>
-            <option value="Akash">Akash</option>
-        </select>
-    </div>
-    <br>
-    <div>
-        <label for="text">Enter Your Review</label>
-            <textarea name="text" id="text" cols="40" rows="4" placeholder="Enter your review here"></textarea>
-    </div>   
-    </form> 
-
-    <!-- video add -->
-    <div>
-    Movie= Naruto the Bonds
-    <video src="Movie 03 - Bonds.mkv" controls height="300"width=350 muted preload poster="26540782555_1f6a609edc_b.jpg"></video>
-    </div>
-    <!-- <svg height="60" width="60">
-        <circle 
-    </svg> -->
-    <iframe width="300" height="300" src="https://www.youtube.com/embed/nkaAJYfRDVk?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w" title="CSS Sizing Units - px, rem, em, vh, vw, % &amp; more | Sigma Web Development Course - Tutorial #22" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <script src="script.jss"></script>
-</body>
+<header><h1><hr>Welcome to my Website<hr></h1></header>
+<main>
+    <pre> 
+        Hi its me Prince Soni This is my First Website project created with html and css
+    </pre>
+    <pre>
+        Lets  Start with Login:-
+    </pre>
+    <form action="form">
+        <div>
+            <label for="username">Enter your Username:</label>
+            <input type="text" class="box" id="username" placeholder="Enter Your Mail id here" size="40"><br>
+        </div><br>
+        <div>
+            <label for="password">Enter your Password:</label>
+        <input type="password" class="box" id="password" placeholder="Enter Your password" size="40">
+        </div><br>
+        <div class="circle">
+            <input type="radio" id="old" name="login" value="Old User">
+            <label for="old">Old User</label>
+            <input type="radio" id="new" name="login" value="New User">
+            <label for="new">New User</label>
+        </div>
+    </form>
+</main>
 </html>
